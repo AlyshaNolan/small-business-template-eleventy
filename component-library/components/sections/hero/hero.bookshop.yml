@@ -52,6 +52,7 @@ _inputs:
     type: checkbox
   featured_post:
     type: checkbox
+    disabled: true
   image_alignment:
     comment: "If an image is provided, determines how the image will display: on the left, the right, or covering the full background of the hero"
     type: choice
