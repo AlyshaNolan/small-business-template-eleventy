@@ -25,6 +25,8 @@ preview:
     image_alignment: left
     color_group: "primary"
   content:
+    live_and_public: false
+    featured_post: false
     heading:
       _bookshop_name: generic/heading
       eyebrow_headline: a small business template
@@ -46,6 +48,10 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  live_and_public:
+    type: checkbox
+  featured_post:
+    type: checkbox
   image_alignment:
     comment: "If an image is provided, determines how the image will display: on the left, the right, or covering the full background of the hero"
     type: choice
